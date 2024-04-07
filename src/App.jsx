@@ -26,7 +26,7 @@ const App = () => {
   return (
     <div className="container mt-5">
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-6 rounded-3">
           <Formulario onAgregarColaborador={agregarColaborador} />
           <Alert mensaje={mensajeAlerta} tipo={tipoAlerta} />
           <Buscador
